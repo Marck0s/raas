@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint>List of Medias</hint>
+        <homepage/>
+        <image/>
+        <link_type>SEPARATOR</link_type>
+        <map_page/>
+        <mobile_title>Actor</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1593192_raas_media</name>
+        <order>500</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1593192_raas.administrator,x_1593192_raas.moderator</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-03 20:18:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e88cf27ac33a1210af30b11ed401316b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Medias</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Raas" source="x_1593192_raas">4576f52ec33a1210af30b11ed401312b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raas">4576f52ec33a1210af30b11ed401312b</sys_scope>
+        <sys_update_name>sys_app_module_e88cf27ac33a1210af30b11ed401316b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 20:18:23</sys_updated_on>
+        <timeline_page/>
+        <title>Medias</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS">4576f52ec33a1210af30b11ed401312b</application>
+        <file_path/>
+        <instance_id>6143594d93ca9e14c4e8ddd548373cfe</instance_id>
+        <instance_name>dev291366</instance_name>
+        <name>sys_app_module_e88cf27ac33a1210af30b11ed401316b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application/><assessment/><device_type/><filter/><hint>List of Medias</hint><homepage/><image/><link_type>SEPARATOR</link_type><map_page/><mobile_title>Actor</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1593192_raas_media</name><order>500</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_1593192_raas.administrator,x_1593192_raas.moderator</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-03 20:18:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e88cf27ac33a1210af30b11ed401316b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Medias</sys_name><sys_overrides/><sys_package display_value="Raas" source="x_1593192_raas">4576f52ec33a1210af30b11ed401312b</sys_package><sys_policy/><sys_scope display_value="Raas">4576f52ec33a1210af30b11ed401312b</sys_scope><sys_update_name>sys_app_module_e88cf27ac33a1210af30b11ed401316b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-03 20:18:23</sys_updated_on><timeline_page/><title>Medias</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-220502369</payload_hash>
+        <record_name>Medias</record_name>
+        <reverted_from/>
+        <source>4576f52ec33a1210af30b11ed4013130</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-03 20:19:05</sys_created_on>
+        <sys_id>22acb2fac33a1210af30b11ed40131c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1942dd250e30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 20:19:05</sys_updated_on>
+        <type>Module</type>
+        <update_guid>a88cf27a803a12107af7a0038fd29d6d</update_guid>
+        <update_guid_history>a88cf27a803a12107af7a0038fd29d6d:42854849,a88cf27a803a12107af7a0038fd29d6d:42854849</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Medias">367ff2bec33a1210af30b11ed401319d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-03 20:31:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>3b383c02dc284541ace825fe633bba79</sys_id>
+        <sys_metadata>e88cf27ac33a1210af30b11ed401316b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Medias</sys_name>
+        <sys_package display_value="RaaS" source="x_1593192_raas">4576f52ec33a1210af30b11ed401312b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS">4576f52ec33a1210af30b11ed401312b</sys_scope>
+        <sys_scope_delete display_value="">124a5520fb3e4fe6903b07b3a9cb5164</sys_scope_delete>
+        <sys_update_name>sys_app_module_e88cf27ac33a1210af30b11ed401316b</sys_update_name>
+        <sys_update_version display_value="sys_app_module_e88cf27ac33a1210af30b11ed401316b">22acb2fac33a1210af30b11ed40131c4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 20:31:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

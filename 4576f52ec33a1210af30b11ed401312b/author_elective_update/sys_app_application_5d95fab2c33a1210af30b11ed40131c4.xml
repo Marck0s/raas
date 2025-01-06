@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order>100</order>
+        <roles>x_1593192_raas.administrator,x_1593192_raas.moderator</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-03 19:50:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5d95fab2c33a1210af30b11ed40131c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Raas - Review as a Service</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Raas" source="x_1593192_raas">4576f52ec33a1210af30b11ed401312b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raas">4576f52ec33a1210af30b11ed401312b</sys_scope>
+        <sys_update_name>sys_app_application_5d95fab2c33a1210af30b11ed40131c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 19:50:37</sys_updated_on>
+        <title>Raas - Review as a Service</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS">4576f52ec33a1210af30b11ed401312b</application>
+        <file_path/>
+        <instance_id>6143594d93ca9e14c4e8ddd548373cfe</instance_id>
+        <instance_name>dev291366</instance_name>
+        <name>sys_app_application_5d95fab2c33a1210af30b11ed40131c4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name/><order>100</order><roles>x_1593192_raas.administrator,x_1593192_raas.moderator</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-03 19:50:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5d95fab2c33a1210af30b11ed40131c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Raas - Review as a Service</sys_name><sys_overrides/><sys_package display_value="Raas" source="x_1593192_raas">4576f52ec33a1210af30b11ed401312b</sys_package><sys_policy/><sys_scope display_value="Raas">4576f52ec33a1210af30b11ed401312b</sys_scope><sys_update_name>sys_app_application_5d95fab2c33a1210af30b11ed40131c4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-03 19:50:37</sys_updated_on><title>Raas - Review as a Service</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>1982502957</payload_hash>
+        <record_name>Raas - Review as a Service</record_name>
+        <reverted_from/>
+        <source>4576f52ec33a1210af30b11ed4013130</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-03 19:50:37</sys_created_on>
+        <sys_id>a926f2bac3f61210af30b11ed40131d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1942db83f8a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 19:50:37</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>ad26f2ba36f6121072b22fa851d7cdd6</update_guid>
+        <update_guid_history>ad26f2ba36f6121072b22fa851d7cdd6:1982502957</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Raas - Review as a Service">a2ac32fac33a1210af30b11ed401313e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-03 20:19:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>6373c0005f32419886d00d1d22a10910</sys_id>
+        <sys_metadata>5d95fab2c33a1210af30b11ed40131c4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Raas - Review as a Service</sys_name>
+        <sys_package display_value="RaaS" source="x_1593192_raas">4576f52ec33a1210af30b11ed401312b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS">4576f52ec33a1210af30b11ed401312b</sys_scope>
+        <sys_scope_delete display_value="">124a5520fb3e4fe6903b07b3a9cb5164</sys_scope_delete>
+        <sys_update_name>sys_app_application_5d95fab2c33a1210af30b11ed40131c4</sys_update_name>
+        <sys_update_version display_value="sys_app_application_5d95fab2c33a1210af30b11ed40131c4">a926f2bac3f61210af30b11ed40131d7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 20:19:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
