@@ -8,7 +8,7 @@
             </choice>
         </element>
         <element default="0" label="Average Rating" max_length="255" name="average_rating" type="float"/>
-        <element default="0" label="Metascore" max_length="40" name="metascore" type="string"/>
+        <element default="0" label="Metascore" max_length="40" name="metascore" type="integer"/>
         <element label="Awards" max_length="250" name="awards" type="string"/>
         <element label="Category" max_length="40" name="category" type="string"/>
         <element display="true" label="Title" max_length="250" name="title" type="string"/>
