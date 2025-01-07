@@ -16,7 +16,7 @@
         <element default="0" label="IMDB Rating" max_length="40" name="imdb_rating" type="float"/>
         <element label="Website" max_length="250" name="website" type="url"/>
         <element label="Writers" max_length="4000" name="writers" type="string"/>
-        <element label="Poster" max_length="40" name="poster" type="url"/>
+        <element label="Poster" max_length="1000" name="poster" type="url"/>
         <element label="Genre" max_length="1024" name="genre" reference="x_1593192_raas_genre" type="glide_list"/>
         <element label="Release Date" max_length="40" name="release_date" type="glide_date"/>
         <element label="Production" max_length="250" name="production" type="string"/>
