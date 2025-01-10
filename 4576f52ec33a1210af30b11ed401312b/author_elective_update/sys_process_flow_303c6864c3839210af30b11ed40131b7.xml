@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="DELETE">
+        <active>true</active>
+        <condition table="x_1593192_raas_review">state=1^EQ<item display_value="Requested" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Requested</label>
+        <name>Requested</name>
+        <order>100</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-08 20:18:20</sys_created_on>
+        <sys_id>303c6864c3839210af30b11ed40131b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requested</sys_name>
+        <sys_package display_value="RaaS" source="x_1593192_raas">4576f52ec33a1210af30b11ed401312b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS">4576f52ec33a1210af30b11ed401312b</sys_scope>
+        <sys_update_name>sys_process_flow_303c6864c3839210af30b11ed40131b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-08 20:18:20</sys_updated_on>
+        <table>x_1593192_raas_review</table>
+    </sys_process_flow>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS">4576f52ec33a1210af30b11ed401312b</application>
+        <file_path/>
+        <instance_id>6143594d93ca9e14c4e8ddd548373cfe</instance_id>
+        <instance_name>dev291366</instance_name>
+        <name>sys_process_flow_303c6864c3839210af30b11ed40131b7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow"><sys_process_flow action="INSERT_OR_UPDATE"><active>true</active><condition table="x_1593192_raas_review">state=1^EQ<item display_value="Requested" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description/><label>Requested</label><name>Requested</name><order>100</order><sys_class_name>sys_process_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-08 20:18:20</sys_created_on><sys_id>303c6864c3839210af30b11ed40131b7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Requested</sys_name><sys_package display_value="RaaS" source="x_1593192_raas">4576f52ec33a1210af30b11ed401312b</sys_package><sys_policy/><sys_scope display_value="RaaS">4576f52ec33a1210af30b11ed401312b</sys_scope><sys_update_name>sys_process_flow_303c6864c3839210af30b11ed40131b7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-08 20:18:20</sys_updated_on><table>x_1593192_raas_review</table></sys_process_flow></record_update>]]></payload>
+        <payload_hash>-2032461808</payload_hash>
+        <record_name>Requested</record_name>
+        <reverted_from/>
+        <source>8ac9b83fc3725210af30b11ed401319a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-08 20:18:20</sys_created_on>
+        <sys_id>087c2864c3839210af30b11ed40131cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19447916bab0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-08 20:18:20</sys_updated_on>
+        <type>Flow Formatter</type>
+        <update_guid>0c7c2864ed83921079df518416d6e6ce</update_guid>
+        <update_guid_history>0c7c2864ed83921079df518416d6e6ce:-2032461808</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-08 20:27:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_process_flow">sys_process_flow</sys_db_object>
+        <sys_id>4de9c588b5934c54aa227ead531ce281</sys_id>
+        <sys_metadata>303c6864c3839210af30b11ed40131b7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requested</sys_name>
+        <sys_package display_value="RaaS" source="x_1593192_raas">4576f52ec33a1210af30b11ed401312b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS">4576f52ec33a1210af30b11ed401312b</sys_scope>
+        <sys_scope_delete display_value="">124a5520fb3e4fe6903b07b3a9cb5164</sys_scope_delete>
+        <sys_update_name>sys_process_flow_303c6864c3839210af30b11ed40131b7</sys_update_name>
+        <sys_update_version display_value="sys_process_flow_303c6864c3839210af30b11ed40131b7">087c2864c3839210af30b11ed40131cf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-08 20:27:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>create__update_actors</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Create / Update Actors</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-10 20:58:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>31c847cdc30b1210af30b11ed401313c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create / Update Actors</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RaaS" source="x_1593192_raas">4576f52ec33a1210af30b11ed401312b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS">4576f52ec33a1210af30b11ed401312b</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_31c847cdc30b1210af30b11ed401313c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-10 20:58:20</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=31c847cdc30b1210af30b11ed401313c"/>
+    <sys_variable_value action="DELETE" query="document_key=31c847cdc30b1210af30b11ed401313c"/>
+    <sys_hub_step_instance action="DELETE" query="action=31c847cdc30b1210af30b11ed401313c"/>
+    <sys_hub_action_input action="DELETE" query="model=31c847cdc30b1210af30b11ed401313c"/>
+    <sys_hub_action_output action="DELETE" query="model=31c847cdc30b1210af30b11ed401313c"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=31c847cdc30b1210af30b11ed401313c"/>
+    <sys_hub_action_status_metadata action="DELETE" query="action_type_id=31c847cdc30b1210af30b11ed401313c"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_input_31c847cdc30b1210af30b11ed401313c"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_input_31c847cdc30b1210af30b11ed401313c"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_output_31c847cdc30b1210af30b11ed401313c"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_output_31c847cdc30b1210af30b11ed401313c"/>
+    <sys_hub_action_plan action="DELETE" query="action_id=31c847cdc30b1210af30b11ed401313c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS">4576f52ec33a1210af30b11ed401312b</application>
+        <file_path/>
+        <instance_id>6143594d93ca9e14c4e8ddd548373cfe</instance_id>
+        <instance_name>dev291366</instance_name>
+        <name>sys_hub_action_type_definition_31c847cdc30b1210af30b11ed401313c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition"><sys_hub_action_type_definition action="INSERT_OR_UPDATE"><access>public</access><acls/><action_status/><action_template/><active>true</active><annotation/><attributes>{labelCacheCleanUpExecuted=true}</attributes><authored_on_release_version>26000</authored_on_release_version><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description/><flow_priority/><ih_action>false</ih_action><internal_name>create__update_actors</internal_name><label_cache/><latest_snapshot/><master_snapshot/><master_snapshot_digest/><name>Create / Update Actors</name><natlang/><outputs/><pre_compiled>false</pre_compiled><state>draft</state><sys_class_name>sys_hub_action_type_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-10 20:58:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>31c847cdc30b1210af30b11ed401313c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create / Update Actors</sys_name><sys_overrides/><sys_package display_value="RaaS" source="x_1593192_raas">4576f52ec33a1210af30b11ed401312b</sys_package><sys_policy/><sys_scope display_value="RaaS">4576f52ec33a1210af30b11ed401312b</sys_scope><sys_update_name>sys_hub_action_type_definition_31c847cdc30b1210af30b11ed401313c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-10 20:58:20</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_definition><sys_translated_text action="delete_multiple" query="documentkey=31c847cdc30b1210af30b11ed401313c"/><sys_variable_value action="delete_multiple" query="document_key=31c847cdc30b1210af30b11ed401313c"/><sys_hub_step_instance action="delete_multiple" query="action=31c847cdc30b1210af30b11ed401313c"/><sys_hub_action_input action="delete_multiple" query="model=31c847cdc30b1210af30b11ed401313c"/><sys_hub_action_output action="delete_multiple" query="model=31c847cdc30b1210af30b11ed401313c"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=31c847cdc30b1210af30b11ed401313c"/><sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=31c847cdc30b1210af30b11ed401313c"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_31c847cdc30b1210af30b11ed401313c"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_31c847cdc30b1210af30b11ed401313c"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_31c847cdc30b1210af30b11ed401313c"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_31c847cdc30b1210af30b11ed401313c"/><sys_hub_action_plan action="delete_multiple" query="action_id=31c847cdc30b1210af30b11ed401313c"/></record_update>]]></payload>
+        <payload_hash>-1155020372</payload_hash>
+        <record_name>Create / Update Actors</record_name>
+        <reverted_from/>
+        <source>8ac9b83fc3725210af30b11ed401319a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-10 20:58:20</sys_created_on>
+        <sys_id>71c847cdc30b1210af30b11ed4013140</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1945202c3a10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-10 20:58:20</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>75c847cdfd0b121033f44a453859633f</update_guid>
+        <update_guid_history>75c847cdfd0b121033f44a453859633f:-1155020372</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-10 21:01:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>7984f1d615c64b70a0dd79509312a864</sys_id>
+        <sys_metadata>31c847cdc30b1210af30b11ed401313c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create / Update Actors</sys_name>
+        <sys_package display_value="RaaS" source="x_1593192_raas">4576f52ec33a1210af30b11ed401312b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS">4576f52ec33a1210af30b11ed401312b</sys_scope>
+        <sys_scope_delete display_value="">124a5520fb3e4fe6903b07b3a9cb5164</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_31c847cdc30b1210af30b11ed401313c</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_31c847cdc30b1210af30b11ed401313c">71c847cdc30b1210af30b11ed4013140</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-10 21:01:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
