@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>name</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 19:27:34</sys_created_on>
+        <sys_id>b34a9f9a830b1210794ee470ceaad371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>name</sys_name>
+        <sys_package display_value="RaaS" source="x_1593192_raas">4576f52ec33a1210af30b11ed401312b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS">4576f52ec33a1210af30b11ed401312b</sys_scope>
+        <sys_update_name>sys_ui_policy_action_b34a9f9a830b1210794ee470ceaad371</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 19:27:34</sys_updated_on>
+        <table>x_1593192_raas_director</table>
+        <ui_policy display_value="Read Only for Directors">07c89f1a830b1210794ee470ceaad3d9</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=b34a9f9a830b1210794ee470ceaad371"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS">4576f52ec33a1210af30b11ed401312b</application>
+        <file_path/>
+        <instance_id>c97a658edb127d102f082a59139619db</instance_id>
+        <instance_name>dev205327</instance_name>
+        <name>sys_ui_policy_action_b34a9f9a830b1210794ee470ceaad371</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>name</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-14 19:27:34</sys_created_on><sys_id>b34a9f9a830b1210794ee470ceaad371</sys_id><sys_mod_count>0</sys_mod_count><sys_name>name</sys_name><sys_package display_value="RaaS" source="x_1593192_raas">4576f52ec33a1210af30b11ed401312b</sys_package><sys_policy/><sys_scope display_value="RaaS">4576f52ec33a1210af30b11ed401312b</sys_scope><sys_update_name>sys_ui_policy_action_b34a9f9a830b1210794ee470ceaad371</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-14 19:27:34</sys_updated_on><table>x_1593192_raas_director</table><ui_policy display_value="Read Only for Directors">07c89f1a830b1210794ee470ceaad3d9</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=b34a9f9a830b1210794ee470ceaad371"/></record_update>]]></payload>
+        <payload_hash>1790040285</payload_hash>
+        <record_name>name</record_name>
+        <reverted_from/>
+        <source>5db082de83031210794ee470ceaad396</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 19:27:34</sys_created_on>
+        <sys_id>575a1b9a830b1210794ee470ceaad362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194664919ee0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 19:27:34</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>5b5a1b9a9d0b121097ac3f641f33ef61</update_guid>
+        <update_guid_history>5b5a1b9a9d0b121097ac3f641f33ef61:1790040285</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 20:10:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>1824e8d452ac403c90a43176edc29990</sys_id>
+        <sys_metadata>b34a9f9a830b1210794ee470ceaad371</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>name</sys_name>
+        <sys_package display_value="RaaS" source="x_1593192_raas">4576f52ec33a1210af30b11ed401312b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS">4576f52ec33a1210af30b11ed401312b</sys_scope>
+        <sys_scope_delete display_value="">124a5520fb3e4fe6903b07b3a9cb5164</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_b34a9f9a830b1210794ee470ceaad371</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_b34a9f9a830b1210794ee470ceaad371">575a1b9a830b1210794ee470ceaad362</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 20:10:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

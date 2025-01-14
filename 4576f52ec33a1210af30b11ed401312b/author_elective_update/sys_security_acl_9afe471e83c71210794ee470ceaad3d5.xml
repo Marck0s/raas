@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description>Media Read Only</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1593192_raas_media.*</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 18:45:25</sys_created_on>
+        <sys_id>9afe471e83c71210794ee470ceaad3d5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_1593192_raas_media.*</sys_name>
+        <sys_package display_value="RaaS" source="x_1593192_raas">4576f52ec33a1210af30b11ed401312b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS">4576f52ec33a1210af30b11ed401312b</sys_scope>
+        <sys_update_name>sys_security_acl_9afe471e83c71210794ee470ceaad3d5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 19:10:00</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS">4576f52ec33a1210af30b11ed401312b</application>
+        <file_path/>
+        <instance_id>c97a658edb127d102f082a59139619db</instance_id>
+        <instance_name>dev205327</instance_name>
+        <name>sys_security_acl_9afe471e83c71210794ee470ceaad3d5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description>Media Read Only</description><local_or_existing>Local</local_or_existing><name>x_1593192_raas_media.*</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-14 18:45:25</sys_created_on><sys_id>9afe471e83c71210794ee470ceaad3d5</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_1593192_raas_media.*</sys_name><sys_package display_value="RaaS" source="x_1593192_raas">4576f52ec33a1210af30b11ed401312b</sys_package><sys_policy/><sys_scope display_value="RaaS">4576f52ec33a1210af30b11ed401312b</sys_scope><sys_update_name>sys_security_acl_9afe471e83c71210794ee470ceaad3d5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-14 19:10:00</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-231755037</payload_hash>
+        <record_name>x_1593192_raas_media.*</record_name>
+        <reverted_from/>
+        <source>5db082de83031210794ee470ceaad396</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 19:10:01</sys_created_on>
+        <sys_id>0e56db56830b1210794ee470ceaad3fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1946639078e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 19:10:01</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>b156db56f80b12107ff4a3cac104b3fe</update_guid>
+        <update_guid_history>b156db56f80b12107ff4a3cac104b3fe:-231755037,81e1dfdea8c712107621b47e4946db56:1215033943,b5b0979ea4c7121080047f47487b20c2:-1253222113</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 20:11:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>66a27b65a8574e74882ddfe4aedd8844</sys_id>
+        <sys_metadata>9afe471e83c71210794ee470ceaad3d5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1593192_raas_media.*</sys_name>
+        <sys_package display_value="RaaS" source="x_1593192_raas">4576f52ec33a1210af30b11ed401312b</sys_package>
+        <sys_parent display_value="x_1593192_raas_media">d1800e1283431210794ee470ceaad320</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RaaS">4576f52ec33a1210af30b11ed401312b</sys_scope>
+        <sys_scope_delete display_value="">124a5520fb3e4fe6903b07b3a9cb5164</sys_scope_delete>
+        <sys_update_name>sys_security_acl_9afe471e83c71210794ee470ceaad3d5</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_9afe471e83c71210794ee470ceaad3d5">0e56db56830b1210794ee470ceaad3fe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 20:11:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

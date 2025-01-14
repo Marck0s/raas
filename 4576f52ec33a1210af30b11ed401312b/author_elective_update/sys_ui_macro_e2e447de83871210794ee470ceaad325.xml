@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="DELETE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>media_lifecycle_flow</name>
+        <scoped_name>x_1593192_raas_media_lifecycle_flow</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 17:54:36</sys_created_on>
+        <sys_id>e2e447de83871210794ee470ceaad325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>media_lifecycle_flow</sys_name>
+        <sys_package display_value="RaaS" source="x_1593192_raas">4576f52ec33a1210af30b11ed401312b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS">4576f52ec33a1210af30b11ed401312b</sys_scope>
+        <sys_update_name>sys_ui_macro_e2e447de83871210794ee470ceaad325</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 17:54:36</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+  <link rel="stylesheet" type="text/css" href="styles/process_flow_formatter.cssx"></link>
+  <tr>
+    <td colspan="2" width="100%" nowrap="true">
+      <div>
+	<table cellpadding="0" cellspacing="0" style="width: 100%;border:none;border-collapse:collapse" class="process_flow_formatter" role="listbox">
+	  <tr role="presentation">
+	    <g2:flow_formatter var="jvar_flows" table="$[${ref_parent}.getRecordClassName()]" current="$[${ref_parent}]" />
+            <g2:evaluate var="jvar_width" jelly="true">
+                   var size= jelly.jvar_flows.size();
+                   if(size)
+                   Math.floor(100/size);
+            </g2:evaluate>
+	    <j2:forEach items="$[jvar_flows]" var="jvar_flow">
+	    <g2:set_if var="jvar_step_status" test="$[jvar_flow.getParameter('state') == 'current']" true="step" false="false" />
+	      <td style="width:$[jvar_width]%" class="process_flow $[jvar_flow.getParameter('state')]" role="option" aria-current="$[jvar_step_status]" aria-selected="$[jvar_flow.getParameter('state') == 'current']">
+		  	  <a role="presentation" aria-disabled="true" aria-label="$[jvar_flow.getLabel()]">$[jvar_flow.getLabel()]</a>
+	      </td>
+	      <td width="16" height="100%"  aria-hidden="true">
+                  <img style="margin:0; padding:0px;" alt="" aria-hidden="true"
+		     src="images/chevron_$[jvar_flow.getParameter('state')]_$[jvar_flow.getParameter('next_state')].pngx" />
+	      </td>
+	    </j2:forEach>
+	  </tr>
+	</table>
+      </div>
+    </td>
+  </tr>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS">4576f52ec33a1210af30b11ed401312b</application>
+        <file_path/>
+        <instance_id>c97a658edb127d102f082a59139619db</instance_id>
+        <instance_name>dev205327</instance_name>
+        <name>sys_ui_macro_e2e447de83871210794ee470ceaad325</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_macro"&gt;&lt;sys_ui_macro action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;category&gt;general&lt;/category&gt;&lt;description/&gt;&lt;media_type/&gt;&lt;name&gt;media_lifecycle_flow&lt;/name&gt;&lt;scoped_name&gt;x_1593192_raas_media_lifecycle_flow&lt;/scoped_name&gt;&lt;sys_class_name&gt;sys_ui_macro&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-14 17:54:36&lt;/sys_created_on&gt;&lt;sys_id&gt;e2e447de83871210794ee470ceaad325&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;media_lifecycle_flow&lt;/sys_name&gt;&lt;sys_package display_value="RaaS" source="x_1593192_raas"&gt;4576f52ec33a1210af30b11ed401312b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="RaaS"&gt;4576f52ec33a1210af30b11ed401312b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_macro_e2e447de83871210794ee470ceaad325&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-14 17:54:36&lt;/sys_updated_on&gt;&lt;xml&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+  &lt;link rel="stylesheet" type="text/css" href="styles/process_flow_formatter.cssx"&gt;&lt;/link&gt;
+  &lt;tr&gt;
+    &lt;td colspan="2" width="100%" nowrap="true"&gt;
+      &lt;div&gt;
+	&lt;table cellpadding="0" cellspacing="0" style="width: 100%;border:none;border-collapse:collapse" class="process_flow_formatter" role="listbox"&gt;
+	  &lt;tr role="presentation"&gt;
+	    &lt;g2:flow_formatter var="jvar_flows" table="$[${ref_parent}.getRecordClassName()]" current="$[${ref_parent}]" /&gt;
+            &lt;g2:evaluate var="jvar_width" jelly="true"&gt;
+                   var size= jelly.jvar_flows.size();
+                   if(size)
+                   Math.floor(100/size);
+            &lt;/g2:evaluate&gt;
+	    &lt;j2:forEach items="$[jvar_flows]" var="jvar_flow"&gt;
+	    &lt;g2:set_if var="jvar_step_status" test="$[jvar_flow.getParameter('state') == 'current']" true="step" false="false" /&gt;
+	      &lt;td style="width:$[jvar_width]%" class="process_flow $[jvar_flow.getParameter('state')]" role="option" aria-current="$[jvar_step_status]" aria-selected="$[jvar_flow.getParameter('state') == 'current']"&gt;
+		  	  &lt;a role="presentation" aria-disabled="true" aria-label="$[jvar_flow.getLabel()]"&gt;$[jvar_flow.getLabel()]&lt;/a&gt;
+	      &lt;/td&gt;
+	      &lt;td width="16" height="100%"  aria-hidden="true"&gt;
+                  &lt;img style="margin:0; padding:0px;" alt="" aria-hidden="true"
+		     src="images/chevron_$[jvar_flow.getParameter('state')]_$[jvar_flow.getParameter('next_state')].pngx" /&gt;
+	      &lt;/td&gt;
+	    &lt;/j2:forEach&gt;
+	  &lt;/tr&gt;
+	&lt;/table&gt;
+      &lt;/div&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/xml&gt;&lt;/sys_ui_macro&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-588028643</payload_hash>
+        <record_name>media_lifecycle_flow</record_name>
+        <reverted_from/>
+        <source>5db082de83031210794ee470ceaad396</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 17:54:36</sys_created_on>
+        <sys_id>1d15c7de83871210794ee470ceaad3f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19465f3fc570000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 17:54:36</sys_updated_on>
+        <type>Macro</type>
+        <update_guid>1115c7de9a871210ed280b8aee4f50f5</update_guid>
+        <update_guid_history>1115c7de9a871210ed280b8aee4f50f5:-588028643</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 18:07:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_macro">sys_ui_macro</sys_db_object>
+        <sys_id>1cb78c5670a449e4ad231b55426e05b9</sys_id>
+        <sys_metadata>e2e447de83871210794ee470ceaad325</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>media_lifecycle_flow</sys_name>
+        <sys_package display_value="RaaS" source="x_1593192_raas">4576f52ec33a1210af30b11ed401312b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS">4576f52ec33a1210af30b11ed401312b</sys_scope>
+        <sys_scope_delete display_value="">124a5520fb3e4fe6903b07b3a9cb5164</sys_scope_delete>
+        <sys_update_name>sys_ui_macro_e2e447de83871210794ee470ceaad325</sys_update_name>
+        <sys_update_version display_value="sys_ui_macro_e2e447de83871210794ee470ceaad325">1d15c7de83871210794ee470ceaad3f5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 18:07:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
