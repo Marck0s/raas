@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Hide Actors Btn</name>
+        <order/>
+        <script><![CDATA[function onLoad(executionContext) {
+    // Obtenha o valor do campo 'state'
+    var state = gForm.getValue('state');
+
+    // Verifique se o estado está como 'complete'
+    if (state == 3) {
+        // Nome técnico da lista relacionada
+        var relatedListName = 'x_1593192_raas_m2m_actor_media.x_1593192_raas_media'; // Substitua pelo nome correto da lista
+
+        // Esconde os botões da lista relacionada
+        gForm.setRelatedListButtons(relatedListName, 'sysverb_new', true); // Oculta o botão de Novo
+        gForm.setRelatedListButtons(relatedListName, 'sysverb_edit', true); // Oculta o botão de Editar
+
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-15 12:46:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>beb64b6a838b5210794ee470ceaad37d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Hide Actors Btn</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RaaS - Marcos" source="x_1593192_raas">4576f52ec33a1210af30b11ed401312b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Marcos">4576f52ec33a1210af30b11ed401312b</sys_scope>
+        <sys_update_name>sys_script_client_beb64b6a838b5210794ee470ceaad37d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-15 13:06:31</sys_updated_on>
+        <table>x_1593192_raas_m2m_actor_media</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS - Marcos">4576f52ec33a1210af30b11ed401312b</application>
+        <file_path/>
+        <instance_id>c97a658edb127d102f082a59139619db</instance_id>
+        <instance_name>dev205327</instance_name>
+        <name>sys_script_client_beb64b6a838b5210794ee470ceaad37d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Hide Actors Btn&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad(executionContext) {
+    // Obtenha o valor do campo 'state'
+    var state = gForm.getValue('state');
+
+    // Verifique se o estado está como 'complete'
+    if (state == 3) {
+        // Nome técnico da lista relacionada
+        var relatedListName = 'x_1593192_raas_m2m_actor_media.x_1593192_raas_media'; // Substitua pelo nome correto da lista
+
+        // Esconde os botões da lista relacionada
+        gForm.setRelatedListButtons(relatedListName, 'sysverb_new', true); // Oculta o botão de Novo
+        gForm.setRelatedListButtons(relatedListName, 'sysverb_edit', true); // Oculta o botão de Editar
+
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-15 12:46:47&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;beb64b6a838b5210794ee470ceaad37d&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Hide Actors Btn&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="RaaS - Marcos" source="x_1593192_raas"&gt;4576f52ec33a1210af30b11ed401312b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="RaaS - Marcos"&gt;4576f52ec33a1210af30b11ed401312b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_beb64b6a838b5210794ee470ceaad37d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-15 13:06:31&lt;/sys_updated_on&gt;&lt;table&gt;x_1593192_raas_m2m_actor_media&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>979672008</payload_hash>
+        <record_name>Hide Actors Btn</record_name>
+        <reverted_from/>
+        <source>5db082de83031210794ee470ceaad396</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-15 13:06:31</sys_created_on>
+        <sys_id>dbbc876283cb5210794ee470ceaad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1946a129a930000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-15 13:06:31</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>53bc87622ccb5210e9b30001288800ea</update_guid>
+        <update_guid_history>53bc87622ccb5210e9b30001288800ea:979672008,4719072e118b52105ce77ba89e32f50a:-792275465,c6384b6a318b52108fff5a9466fea487:-1905713852</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-15 13:20:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>42f09610a663463f9b0e0115bf13f4c1</sys_id>
+        <sys_metadata>beb64b6a838b5210794ee470ceaad37d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hide Actors Btn</sys_name>
+        <sys_package display_value="RaaS - Marcos" source="x_1593192_raas">4576f52ec33a1210af30b11ed401312b</sys_package>
+        <sys_parent display_value="Raas M2m Actor Media">22e097b2c3ba1210af30b11ed4013179</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Marcos">4576f52ec33a1210af30b11ed401312b</sys_scope>
+        <sys_scope_delete display_value="">124a5520fb3e4fe6903b07b3a9cb5164</sys_scope_delete>
+        <sys_update_name>sys_script_client_beb64b6a838b5210794ee470ceaad37d</sys_update_name>
+        <sys_update_version display_value="sys_script_client_beb64b6a838b5210794ee470ceaad37d">dbbc876283cb5210794ee470ceaad3ea</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-15 13:20:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
