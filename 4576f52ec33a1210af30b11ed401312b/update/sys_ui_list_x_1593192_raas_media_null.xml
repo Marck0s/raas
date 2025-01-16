@@ -3,167 +3,182 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>title</element>
-            <list_id display_value="x_1593192_raas_media" element="NULL" name="x_1593192_raas_media" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8088da9683c31210794ee470ceaad3f7</list_id>
+            <list_id display_value="x_1593192_raas_media" element="NULL" name="x_1593192_raas_media" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d94b958b830bd210794ee470ceaad352</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-14 14:39:48</sys_created_on>
-            <sys_id>cc88da9683c31210794ee470ceaad3f7</sys_id>
+            <sys_created_on>2025-01-16 18:07:44</sys_created_on>
+            <sys_id>5d4b958b830bd210794ee470ceaad353</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-14 14:39:48</sys_updated_on>
+            <sys_updated_on>2025-01-16 18:07:44</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>type</element>
-            <list_id display_value="x_1593192_raas_media" element="NULL" name="x_1593192_raas_media" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8088da9683c31210794ee470ceaad3f7</list_id>
+            <list_id display_value="x_1593192_raas_media" element="NULL" name="x_1593192_raas_media" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d94b958b830bd210794ee470ceaad352</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-14 14:39:48</sys_created_on>
-            <sys_id>0c8892d683c31210794ee470ceaad323</sys_id>
+            <sys_created_on>2025-01-16 18:07:44</sys_created_on>
+            <sys_id>554b958b830bd210794ee470ceaad354</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-14 14:39:48</sys_updated_on>
+            <sys_updated_on>2025-01-16 18:07:44</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>release_date</element>
-            <list_id display_value="x_1593192_raas_media" element="NULL" name="x_1593192_raas_media" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8088da9683c31210794ee470ceaad3f7</list_id>
+            <list_id display_value="x_1593192_raas_media" element="NULL" name="x_1593192_raas_media" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d94b958b830bd210794ee470ceaad352</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-14 14:39:48</sys_created_on>
-            <sys_id>008892d683c31210794ee470ceaad324</sys_id>
+            <sys_created_on>2025-01-16 18:07:44</sys_created_on>
+            <sys_id>594b958b830bd210794ee470ceaad354</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-14 14:39:48</sys_updated_on>
+            <sys_updated_on>2025-01-16 18:07:44</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>genre</element>
-            <list_id display_value="x_1593192_raas_media" element="NULL" name="x_1593192_raas_media" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8088da9683c31210794ee470ceaad3f7</list_id>
+            <list_id display_value="x_1593192_raas_media" element="NULL" name="x_1593192_raas_media" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d94b958b830bd210794ee470ceaad352</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-14 14:39:48</sys_created_on>
-            <sys_id>048892d683c31210794ee470ceaad324</sys_id>
+            <sys_created_on>2025-01-16 18:07:44</sys_created_on>
+            <sys_id>5d4b958b830bd210794ee470ceaad354</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-14 14:39:48</sys_updated_on>
+            <sys_updated_on>2025-01-16 18:07:44</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>category</element>
-            <list_id display_value="x_1593192_raas_media" element="NULL" name="x_1593192_raas_media" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8088da9683c31210794ee470ceaad3f7</list_id>
+            <list_id display_value="x_1593192_raas_media" element="NULL" name="x_1593192_raas_media" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d94b958b830bd210794ee470ceaad352</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-14 14:39:48</sys_created_on>
-            <sys_id>088892d683c31210794ee470ceaad324</sys_id>
+            <sys_created_on>2025-01-16 18:07:44</sys_created_on>
+            <sys_id>514b958b830bd210794ee470ceaad355</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-14 14:39:48</sys_updated_on>
+            <sys_updated_on>2025-01-16 18:07:44</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_updated_on</element>
-            <list_id display_value="x_1593192_raas_media" element="NULL" name="x_1593192_raas_media" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8088da9683c31210794ee470ceaad3f7</list_id>
+            <list_id display_value="x_1593192_raas_media" element="NULL" name="x_1593192_raas_media" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d94b958b830bd210794ee470ceaad352</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-14 14:39:48</sys_created_on>
-            <sys_id>0c8892d683c31210794ee470ceaad324</sys_id>
+            <sys_created_on>2025-01-16 18:07:44</sys_created_on>
+            <sys_id>554b958b830bd210794ee470ceaad355</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-14 14:39:48</sys_updated_on>
+            <sys_updated_on>2025-01-16 18:07:44</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_updated_by</element>
-            <list_id display_value="x_1593192_raas_media" element="NULL" name="x_1593192_raas_media" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8088da9683c31210794ee470ceaad3f7</list_id>
+            <list_id display_value="x_1593192_raas_media" element="NULL" name="x_1593192_raas_media" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d94b958b830bd210794ee470ceaad352</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-14 14:39:48</sys_created_on>
-            <sys_id>008892d683c31210794ee470ceaad325</sys_id>
+            <sys_created_on>2025-01-16 18:07:44</sys_created_on>
+            <sys_id>594b958b830bd210794ee470ceaad355</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-14 14:39:48</sys_updated_on>
+            <sys_updated_on>2025-01-16 18:07:44</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>website</element>
-            <list_id display_value="x_1593192_raas_media" element="NULL" name="x_1593192_raas_media" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8088da9683c31210794ee470ceaad3f7</list_id>
+            <list_id display_value="x_1593192_raas_media" element="NULL" name="x_1593192_raas_media" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d94b958b830bd210794ee470ceaad352</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-14 14:39:48</sys_created_on>
-            <sys_id>048892d683c31210794ee470ceaad325</sys_id>
+            <sys_created_on>2025-01-16 18:07:44</sys_created_on>
+            <sys_id>5d4b958b830bd210794ee470ceaad355</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-14 14:39:48</sys_updated_on>
+            <sys_updated_on>2025-01-16 18:07:44</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>poster</element>
-            <list_id display_value="x_1593192_raas_media" element="NULL" name="x_1593192_raas_media" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8088da9683c31210794ee470ceaad3f7</list_id>
+            <list_id display_value="x_1593192_raas_media" element="NULL" name="x_1593192_raas_media" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d94b958b830bd210794ee470ceaad352</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-14 14:39:48</sys_created_on>
-            <sys_id>088892d683c31210794ee470ceaad325</sys_id>
+            <sys_created_on>2025-01-16 18:07:44</sys_created_on>
+            <sys_id>514b958b830bd210794ee470ceaad356</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-14 14:39:48</sys_updated_on>
+            <sys_updated_on>2025-01-16 18:07:44</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>state</element>
-            <list_id display_value="x_1593192_raas_media" element="NULL" name="x_1593192_raas_media" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8088da9683c31210794ee470ceaad3f7</list_id>
+            <list_id display_value="x_1593192_raas_media" element="NULL" name="x_1593192_raas_media" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d94b958b830bd210794ee470ceaad352</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>9</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-14 14:39:48</sys_created_on>
-            <sys_id>0c8892d683c31210794ee470ceaad325</sys_id>
+            <sys_created_on>2025-01-16 18:07:44</sys_created_on>
+            <sys_id>554b958b830bd210794ee470ceaad356</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-14 14:39:48</sys_updated_on>
+            <sys_updated_on>2025-01-16 18:07:44</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>integration_state</element>
-            <list_id display_value="x_1593192_raas_media" element="NULL" name="x_1593192_raas_media" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8088da9683c31210794ee470ceaad3f7</list_id>
+            <list_id display_value="x_1593192_raas_media" element="NULL" name="x_1593192_raas_media" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d94b958b830bd210794ee470ceaad352</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>10</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-14 14:39:48</sys_created_on>
-            <sys_id>008892d683c31210794ee470ceaad326</sys_id>
+            <sys_created_on>2025-01-16 18:07:44</sys_created_on>
+            <sys_id>594b958b830bd210794ee470ceaad356</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-14 14:39:48</sys_updated_on>
+            <sys_updated_on>2025-01-16 18:07:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>integration_error_message</element>
+            <list_id display_value="x_1593192_raas_media" element="NULL" name="x_1593192_raas_media" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d94b958b830bd210794ee470ceaad352</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-16 18:07:44</sys_created_on>
+            <sys_id>5d4b958b830bd210794ee470ceaad356</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-16 18:07:44</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -177,18 +192,18 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-14 14:39:48</sys_created_on>
+            <sys_created_on>2025-01-16 18:07:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>8088da9683c31210794ee470ceaad3f7</sys_id>
+            <sys_id>d94b958b830bd210794ee470ceaad352</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1593192_raas_media</sys_name>
-            <sys_package display_value="RaaS" source="x_1593192_raas">4576f52ec33a1210af30b11ed401312b</sys_package>
+            <sys_package display_value="RaaS - Marcos" source="x_1593192_raas">4576f52ec33a1210af30b11ed401312b</sys_package>
             <sys_policy/>
-            <sys_scope display_value="RaaS">4576f52ec33a1210af30b11ed401312b</sys_scope>
+            <sys_scope display_value="RaaS - Marcos">4576f52ec33a1210af30b11ed401312b</sys_scope>
             <sys_update_name>sys_ui_list_x_1593192_raas_media_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-14 14:39:48</sys_updated_on>
+            <sys_updated_on>2025-01-16 18:07:44</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
